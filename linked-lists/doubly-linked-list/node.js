@@ -1,34 +1,37 @@
 class Node{
+    #data;
+    #prev;
+    #next;
     constructor(data,next=null,prev=null){
-        this.data = data;
-        this.prev = prev;
-        this.next = next;
+        this.#data = data;
+        this.#prev = prev;
+        this.#next = next;
     }
     //getters
     getPrev(){
-        return (this.prev)?this.prev:undefined;
+        return (this.#prev)?this.#prev:undefined;
     }
     getNext(){
-        return (this.next)?this.next:undefined;
+        return (this.#next)?this.#next:undefined;
     }
     getData(){
-        return this.data;
+        return this.#data;
     }
     //setters
     setPrev(prev){
-        this.prev = prev;
+        this.#prev = prev;
     }
     setNext(next){
-        this.next = next;
+        this.#next = next;
     }
     setData(data){
-        this.data = data;
+        this.#data = data;
     }
     //show
     show(){
-        const prevData = (this.prev)?this.prev.getData():"_";
-        const nextData = (this.next)?this.next.getData():"_";
-        console.log(`${prevData} < ${this.data} > ${nextData}`);
+        const prevData = (this.#prev)?this.#prev.getData():"_";
+        const nextData = (this.#next)?this.#next.getData():"_";
+        console.log(`${prevData} < ${this.#data} > ${nextData}`);
     }
 }
 
