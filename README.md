@@ -8,9 +8,9 @@ I decided to refresh my understadning of data structures, I studied them in high
 
 **So what is a data structure?**
 
-A data structure is a group of Nodes that contain different data types like numbers, chars, strings and these Nodes are stored in the programms memory in a specific way for each data structure. data structures are used for different reasons like storing data, processing data, and reading data. each data strucutre has its own application, characteristics, and features.
+A data structure is a Node that contains different data types like numbers, chars, strings and these Nodes are stored in the programms memory in a specific way for each data structure type. data structures are used for different reasons like storing data, processing data, and reading data. each data strucutre has its own application, characteristics, and features.
 
-There are different types of data structures when each one of them has its own advantages and disadvantages. We can divide all the data structures into 2 main sub categories which are:
+There are different types of data structures when each one of them has its own advantages and disadvantages. We can divide all the data structures into 2 main categories which are:
 
 - Linear data structures
 - Non-Linear data structures
